@@ -1,0 +1,349 @@
+@media (max-width: 480px)
+{
+    .container
+{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+ul
+{
+    margin:0;
+    padding: 0;
+}
+
+/* header */
+header
+{
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(137, 205, 140) 3px solid;
+}
+
+header a
+{
+    color: #f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover
+{
+    color: rgb(65, 156, 227);
+}
+
+header li
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+header .logo h1
+{
+    margin: 0;
+    font-size: 40px;
+}
+
+header .logo h2
+{
+    margin: 0 30px 20px 0;
+    font-size: 20px;
+    float: left;
+}
+
+header .logo h3
+{
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header nav
+{
+    display: inline-block;
+    margin-top: 25px;
+    text-align: center;
+}
+
+header .current
+{
+    border-bottom: rgb(65, 156, 227) 3px solid;
+    color:  rgb(137, 205, 140);
+}
+
+header .highlight
+{
+    color: rgb(137, 205, 140);
+    font-weight: bold;
+}
+
+/* MAIN */
+.container-2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+
+
+.box
+    {
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 10px;
+        flex: 45%;
+    }
+
+/* Sidebar */
+
+#sidebar
+{
+    position: sticky;
+    top:0;
+    float: right;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    border: black 2px solid;
+    margin-top: 10px;
+}
+
+#sidebar h4
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+    
+}
+
+#sidebar li
+{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-top: rgb(137, 205, 140) 3px solid;
+}
+
+.footer .cookie
+{
+    float: right;
+    color: #fff;
+    background-color: rgba(255, 170, 0, 0.5);
+    width: 203px;
+}
+
+.footer footer
+{
+    float: left;
+    width: 50%;
+}
+
+}
+}
+
+@media (max-width: 1179px)
+{
+    
+}
+
+@media (min-width: 1280px)
+{
+    .container-2
+    {
+        flex-direction: row;
+    }
+
+
+body
+{
+    background-color: #f4f4f4;
+    color: #555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+/* Global */
+.container
+{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+ul
+{
+    margin:0;
+    padding: 0;
+}
+
+/* header */
+header
+{
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(137, 205, 140) 3px solid;
+}
+
+header a
+{
+    color: #f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover
+{
+    color: rgb(65, 156, 227);
+}
+
+header li
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+header .logo h1
+{
+    margin: 0;
+    font-size: 40px;
+}
+
+header .logo h2
+{
+    margin: 0 30px 20px 0;
+    font-size: 20px;
+    float: left;
+}
+
+header .logo h3
+{
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header nav
+{
+    display: inline-block;
+    margin-top: 25px;
+    text-align: center;
+}
+
+header .current
+{
+    border-bottom: rgb(65, 156, 227) 3px solid;
+    color:  rgb(137, 205, 140);
+}
+
+header .highlight
+{
+    color: rgb(137, 205, 140);
+    font-weight: bold;
+}
+
+/* MAIN */
+.container-2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+
+
+.box
+    {
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 10px;
+        flex: 45%;
+    }
+
+/* Sidebar */
+
+#sidebar
+{
+    position: sticky;
+    top:0;
+    float: right;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    border: black 2px solid;
+    margin-top: 10px;
+}
+
+#sidebar h4
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+    
+}
+
+#sidebar li
+{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-top: rgb(137, 205, 140) 3px solid;
+}
+
+.footer .cookie
+{
+    float: right;
+    color: #fff;
+    background-color: rgba(255, 170, 0, 0.5);
+    width: 203px;
+}
+
+.footer footer
+{
+    float: left;
+    width: 50%;
+}
+
+}

@@ -1,0 +1,43 @@
+.my-form
+{
+    padding: 20px;
+    width: 50%;
+}
+.my-form label
+{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea
+{
+    padding: 8px;
+    width: 50%;
+}
+.my-form input[type="submit"]
+{
+    background-color: rgb(137, 205, 140);
+    color: #333;
+    padding:10px 15px;
+    border: #333 2px solid;
+    float: right;
+}
+
+.pic1
+{
+    position: relative;
+    background-color: white;
+    float: right;
+}
+  
+.pic2
+{
+    position: relative;
+    background-color: white;
+    float: right;
+}
+  
+.pic3
+{
+    position: relative;
+    background-color: white;
+    float: right;
+}
