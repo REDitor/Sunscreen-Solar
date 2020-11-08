@@ -1,4 +1,0 @@
-Student name: Sander Harks
-Student number: 650397
-Student class: IT1B
-URL student GitHub repository: /* https://github.com/michaInholland/Webmarkup2021 */ 
